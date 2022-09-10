@@ -61,3 +61,13 @@ for(const prueba of probandoArray){
     task.append(punto);
 
 }
+
+//llamo al id de agregar tarea
+
+const $addTask = document.getElementById("addTask");
+
+$addTask.addEventListener("click",()=>{
+    let input= document.createElement("input");
+    input.innerHTML = `<input type="text">`
+    document.body.appendChild(input);
+})
